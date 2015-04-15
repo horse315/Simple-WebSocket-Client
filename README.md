@@ -1,5 +1,6 @@
-Simple-WebSocket-Client
+Simple-WebSocket-Client for Ayyo Api
 =======================
+Forked from:
 
 Simple WebSocket Client is an extension for Google Chrome
 to help construct custom Web Socket requests
