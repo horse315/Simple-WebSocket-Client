@@ -12,7 +12,7 @@
 		<legend>Server Location</legend>
 		<div>
 			<label>URL:</label>
-			<input type="text" id="serverUrl" value="ws://"/>
+			<input type="text" id="serverUrl" value="ws://localhost:8000"/>
 			<button id="connectButton">Open</button>
 			<button id="disconnectButton">Close</button>
 		</div>
@@ -23,8 +23,11 @@
 	</fieldset>
 	<fieldset id="requestArea">
 		<legend>Request</legend>
+		<select id="customRequests">
+            <option value=""></option>
+		</select>
 		<div>
-			<textarea id="sendMessage" disabled="disabled"></textarea>
+			<textarea id="sendMessage" disabled="disabled" style="width:1200px; height: 300px;"></textarea>
 		</div>
 		<div>
 			<button id="sendButton" disabled="disabled">Send</button>
@@ -38,5 +41,6 @@
 </div>
 <script type="text/javascript" src="lib/jquery-1.4.3.min.js"></script>
 <script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="ayyo-requests.js"></script>
 </body>
 </html>
